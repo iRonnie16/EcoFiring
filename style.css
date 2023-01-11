@@ -1,0 +1,351 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("img/Background.jpg");
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-size: 120%;
+}
+
+#primary-about p {
+  font-size: 105%;
+}
+
+a {
+  color: ForestGreen;
+}
+
+header {
+  background-color: #3C4B09;
+  color: #fff;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+ display: inline-block; 
+}
+
+nav a {
+ font-weight: 800; 
+ padding: 15px 10px;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* Nav Background On Mobile */
+nav {
+  background: #2E3806;
+}
+
+/* Selected Nav Link */
+nav a.active, nav a:hover {
+  color: #aaaa00;
+}
+
+h1 {
+  margin: 0 auto 10px auto;
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 300%;
+  font-family: 'Changa One', Sans-Serif;
+  text-align: center;
+}
+
+#wrapper {
+  clear: both;
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+#guarantees {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#guarantees li {
+  float: left;
+  width: 15%;
+  margin: 5%;
+  background-color: #3C4B09;
+  color: #fff;
+  
+  border: solid 0px  #3C4B09;
+  border-radius: 13px;
+}
+
+#guarantees li p {
+  margin: 0;
+  padding: 1% 10% 10% 5%;
+  font-size: 0.79em;
+  color: #fff;
+}
+
+#guarantees li img {
+  border-radius: 12px 12px 0 0;
+}
+
+#primary img, #primary-about img {
+  float: left;
+  margin: 2px 5% 2px 0;
+  border-radius: 9px;
+}
+
+#primary a {
+  font-weight: 700;
+}
+
+#secondary, #secondary-about {
+  border-radius: 12px;
+  padding: 4px 12px;
+  color: white;
+  background-color: #3C4B09;
+  text-align: center;
+  margin: 10px auto 40px auto;
+}
+
+@media screen and (max-width: 690px) {
+  #secondary, #secondary-about {
+    margin-top: 50px;
+  }
+}
+
+#secondary img, #secondary-about img {
+  border: 4px solid #6d7909;
+  width: 80%;
+  border-radius: 8px;
+}
+
+#secondary p {
+  font-size: 15px;
+}
+  
+#secondary h3, #secondary-about h3 {
+  margin: 5px auto;
+  color: #aaaa00;
+}
+
+#secondary h4, #secondary-about h4 {
+  margin: 5px auto;
+}
+
+footer {
+  background-color: #3C4B09;
+  text-align: center;
+  clear: both;
+  color: white;
+  position: relative;
+  top: 150px;
+}
+
+footer p {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+
+footer a {
+  color: white;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  #primary {
+    float: left;
+    max-width: 50%;
+    margin-left: 5%;
+  }
+  
+  #primary-about {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+  }
+
+  #secondary {
+    float: right;
+    width: 30%;
+  }
+  
+  #secondary img {
+    width: 60%;
+  }
+  
+  #secondary-about {
+    float: right;
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 945px) {
+  #primary {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #guarantees li p {
+    font-size: 9px;
+  }
+}
+
+.contact h1, .contact p {
+  text-align: center;
+}
+
+.contact p, a.contact-link {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-size: 160%;
+  font-weight: 800;
+}
+
+a.contact-link {
+  display: block;
+  text-align: center;
+}
+
+img.contact-link {
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+a.contact-link:hover {
+  transition: transform 0.15s linear;
+  transform: scale(1.1);
+}
+
+.contact h1 {
+  color: #3C4B09;
+  margin-top: 30px;
+  text-decoration: underline;
+  font-family: "Anton", sans-serif;
+}
+
+#product {
+  float: left;
+  margin: 3.3%;
+  margin-top: 2%;
+  margin-left: 8.83%;
+  text-align: center;
+  max-width: 37.87%;
+  width: 23%;
+}
+
+#product2 {
+  float: right;
+  margin: 3.3%;
+  margin-top: 2%;
+  margin-right: 8.83%;
+  text-align: center;
+  max-width: 37.87%;
+  width: 23%;
+}
+
+#product p, #product2 p {
+  margin: 8px auto 8px auto;
+  font-size: 1.6vw;
+}
+
+.button {
+  display: block;
+  width: 40%;
+  margin: auto auto 10px auto;
+}
+
+.button:hover {
+  transition: transform 0.15s linear;
+  transform: scale(1.1);
+}
+
+img.pic {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+  border: solid 5px #3C4B09; 
+}
+
+a.keyword {
+  color: ForestGreen;
+  font-weight: bold;
+  font-size: 1.7vw;
+}
+
+.zone-warning {
+  font-family: "Anton", sans serif;
+  text-align: center;
+  font-size: 110%;
+  letter-spacing: 0.14em;
+}
+
+.zone-warning p {
+  font-family: "Anton", sans serif;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 790px) {
+  #product p, #product2 p {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .zone-warning {
+    font-size: 80%;
+  }
+  
+  #product, #product2 {
+    float: none;
+    margin: 10% auto 5% auto;
+    text-align: center;
+    max-width: 70%;
+    width: 60%;
+  }
+  
+  #product p, #product2 p {
+    font-size: 3.7vw;
+  }
+  
+  a.keyword {
+    font-size: 4vw;  
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer {
+    padding-bottom: 17px;
+  }
+}
+
